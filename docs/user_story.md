@@ -17,19 +17,26 @@ The purpose of the collections dashboard is to:
 
 ---
 
+### Key stakeholders
+- Collections strategy teams 
+- Risk managers  
+- Execturives  
+
+
 ### Key Requirements
 
 #### KPI Overview
 - Display summary of key portfolio metrics:  
   - Total clients  
-  - % default next month  
+  - % default rate
+  - % success rate
   - Avg. credit limit  
-  - Avg. months delinquent  
+  - Avg. repayment ratio
 
 #### Delinquency Trends
 - Show monthly delinquency and repayment rates over the last 6 months.  
 - Highlight months with highest/lowest default rates.  
-- Compare delinquency by credit limit groups.  
+
 
 #### Roll Rate Analysis
 - Track customer movement between delinquency stages (Current → Early → Mid → Late).  
@@ -50,6 +57,4 @@ The purpose of the collections dashboard is to:
 
 ---
 
-## Weekly Insights (Optional Extension)
-- Weekly repayment trends for most recent 6 months.  
-- Highlight weeks above/below average repayment to focus collection resources.  
+

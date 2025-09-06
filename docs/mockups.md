@@ -1,6 +1,6 @@
 # 🖼️ Dashboard Mockups — Credit Risk & Collections Strategy
 
-This file contains **storyboard mockups** for the Tableau dashboards.  
+This file contains **Preliminary storyboard mockups** for the Tableau dashboard.  
 They follow the **project process** (requirements → design → build).
 
 ---

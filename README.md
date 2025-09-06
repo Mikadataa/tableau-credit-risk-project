@@ -4,9 +4,13 @@ An end-to-end project analyzing **Credit Card Default Risk** using **Python for 
 
 ---
 
-[![Python](https://img.shields.io/badge/Python-3.9-blue.svg)]()
-[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)]()
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.9-blue.svg)](https://www.python.org/)  
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)  
+[![Tableau](https://img.shields.io/badge/Tableau-Public-blue.svg)](https://public.tableau.com/)  
+[![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-blue.svg)](https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset)  
+[![GitHub](https://img.shields.io/badge/GitHub-Repo-black.svg)](https://github.com/Mikadataa)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue.svg)](https://www.linkedin.com/in/smagulova/)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
 
 ---
 
@@ -32,16 +36,17 @@ The goal of this project is to explore **credit risk behavior** and design an in
 - Mapped `PAY_0` → `Pay_Sep`, created **Delinquency Stage** field  
 - Built **Repayment Ratio** and binned into repayment bands  
 - Added simulated fields: `Collection_Channel`, `AB_Test_Group`  
+**Notebook: [`notebooks`](notebooks/cleaning.ipynb)**
 
 ### 2. Exploratory Data Analysis (Python)
 - Default Rate overall (~22%)  
 - Plots by **Gender, Age, Education**  
 - Repayment Ratio distribution  
 - Collection channel simulations (SMS, Email, Call, Field)  
+📄 **EDA Report**: [`docs/eda_report.md`](docs/eda_report.md)
 
 ### 2.1 Plots
-Plots are stored in the [`reports/`](reports) folder:  
-
+Plots are stored in the [`reports/figures`](reports) folder.  
 
 ### 3. Visualization (Tableau)
 - Built calculated measures for KPIs:
@@ -51,6 +56,7 @@ Plots are stored in the [`reports/`](reports) folder:
   - `Average Repayment Ratio`
   - `Success Rate`
 - Created visuals:
+  - KPI cards
   - Default by Gender, Education, Age Bands
   - Delinquency Trend (line chart)
   - Roll Rate Funnel
@@ -58,13 +64,22 @@ Plots are stored in the [`reports/`](reports) folder:
 - Added filters for Age Bands, Education, Gender, Marital Status  
 
 ![Dashboard Overview](reports/credit-risk-dashboard.png)
+
+---
+
+## 📂 Documentation
+
+- 📄 [`docs/user_story.md`](docs/user_story.md) — Business story describing the purpose of the dashboard and key requirements  
+- 📄 [`docs/glossary.md`](docs/glossary.md) — Glossary of terms like Default Rate, Delinquency Stage, Repayment Ratio  
+- 📄 [`docs/data_description.md`](docs/data_description.md) — Field-by-field explanation of the dataset (IDs, PAY fields, BILL_AMT, PAY_AMT etc.)  
+
 ---
 
 ## 🎨 UI/UX Improvements
 - Dark theme with **cyber-style background**  
 - Transparent KPI row  
 - Gradient colors for Age Bands chart  
-- Circle markers at bar ends (inspired by HR dashboards)  
+- Circle markers at bar ends (applied dual axis feature)  
 - Clickable LinkedIn icon inside dashboard  
 
 ---
@@ -96,12 +111,10 @@ Plots are stored in the [`reports/`](reports) folder:
 ---
 
 ## 👩‍💻 Author
-
 **Mikadataa**  
 🔗 [LinkedIn](https://www.linkedin.com/in/smagulova/) | 🐙 [GitHub](https://github.com/Mikadataa)
 
 ---
 
 ## 📄 License
-
 This project is licensed under the MIT License.

@@ -10,7 +10,7 @@ In our dataset: `default.payment.next.month = 1`.
 Proportion of customers who default out of the total portfolio.  
 Formula:  
 \[
-\text{Default Rate} = \frac{\text{# of customers defaulted}}{\text{Total customers}}
+Default Rate = # of customers defaulted/Total customers
 \]  
 In dataset: ~22%.
 
@@ -39,7 +39,7 @@ Categorization of lateness severity (derived from `PAY_0`):
 ### **Delinquency Rate**
 Proportion of customers late on payments (any stage).  
 \[
-\text{Delinquency Rate} = \frac{\text{# of delinquent customers}}{\text{Total customers}}
+Delinquency Rate = # of delinquent customers/Total customers
 \]  
 
 ---
@@ -59,7 +59,7 @@ Dataset fields: `BILL_AMT1 … BILL_AMT6`.
 ### **Repayment Ratio**
 Ratio of total payments to total bills over 6 months.  
 \[
-\text{Repayment Ratio} = \frac{\text{Sum of PAY_AMT}}{\text{Sum of BILL_AMT}}
+Repayment Ratio = Sum of PAY_AMT/Sum of BILL_AMT
 \]  
 
 ---
